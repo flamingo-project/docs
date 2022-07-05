@@ -12,12 +12,12 @@ const config = {
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.jpg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'flamingo-project', // Usually your GitHub org/user name.
-  projectName: 'docs', // Usually your repo name.
+  projectName: '', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/flamingo-project/docs',
+            'https://github.com/flamingo-project/docs/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/flamingo-project/docs',
+            'https://github.com/flamingo-project/docs/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,13 +60,13 @@ const config = {
         title: 'Flamingo-project',
         logo: {
           alt: 'Logo',
-          src: 'img/logo.svg',
+          src: 'img/favicon.jpg',
         },
         items: [
           {to: '/docs/category/flamingo-ui', label: 'Documentation', position: 'left'},
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/flamingo-project',
             label: 'GitHub',
             position: 'right',
           },
