@@ -9,7 +9,7 @@ const config = {
   title: 'Flamingo Project',
   tagline: '',
   url: 'google.com',
-  baseUrl: '/',
+  baseUrl: '/docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.jpg',
@@ -24,7 +24,7 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', "hu"],
+    locales: ['en'],
   },
 
   presets: [
