@@ -9,7 +9,7 @@ const config = {
   title: 'Flamingo Project',
   tagline: '',
   url: 'google.com',
-  baseUrl: '/',
+  baseUrl: '/docs-build/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.jpg',
