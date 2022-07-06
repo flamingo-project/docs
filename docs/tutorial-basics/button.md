@@ -19,7 +19,7 @@ sidebar_position: 2
 Just type the color and the value between **50-900** (50, 100, 200, ... )
 
 ```jsx 
-import { Button } from 'flamingo-ui'
+import { Button } from '@flamingo-project/flamingo-ui'
 
 <Button value="Contact me" color="green-300" className="uppercase" bgColor="red-500"/>
 ```

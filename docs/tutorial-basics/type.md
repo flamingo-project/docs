@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 # Typing animation
@@ -17,7 +17,7 @@ sidebar_position: 3
 Just type the color and the value between **50-900** (50, 100, 200, ... )
 
 ```jsx 
-import { Type } from 'flamingo-ui'
+import { Type } from '@flamingo-project/flamingo-ui'
 
 <Type value="Flamingo Project - I LOVE YOU" className="upparcase"/>
 ```
